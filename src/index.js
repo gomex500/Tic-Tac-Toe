@@ -6,8 +6,8 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='card'>
-
+    <div className='cont'>
+      <App/>
     </div>
   </React.StrictMode>
 );

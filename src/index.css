@@ -12,4 +12,6 @@ body{
 .cont{
   width: 300px;
   margin: 0 auto;
+  padding-left: 60px;
+  margin-top: 200px;
 }
