@@ -1,7 +1,20 @@
+import React, {useState} from 'react';
 import './App.css';
 
-function Square({value}) {
-  return <button className="square">{value}</button>;
+function Square() {
+  const [value, setValue] = useState(null);
+
+  function handleclick(){
+    setValue('x');
+  }
+  return (
+    <button
+     className="square"
+     onClick={handleclick}
+     >
+       {value}
+    </button>
+  );
 }
 
 export default function Board() {
